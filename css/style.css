@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color:#fff;
+
+    background-color: black;
+    font-family: 'Mukta', sans-serif;
+}
+:root{
+    --main-color:#ec3514; 
+}
+html {
+    scroll-behavior: smooth;
+  }
+.header{
+
+    background-color: #f3af1d;
+    height: 100vh;
+}
+.logo{
+    width: 200px;
+}
+.nav-item a{
+    font-size: 1.2rem !important;
+    text-transform: uppercase;
+    border-right: 1px solid black;
+    padding: 0px 10px;
+    color: black !important;
+
+ 
+ 
+    
+}
+.nav-item i{
+
+    color: rgb(236, 53, 20) !important;
+
+}
+.navbar-brand{
+    font-size: 2.5rem !important;
+    letter-spacing: 10px;
+    font-weight: bold;
+
+
+}
+/*carousel*/
+.carousel-control-prev,
+.carousel-control-next{
+
+    background-color:black !important;
+    margin:0px -30px ;
+}
+@media screen and (max-width: 600px){
+
+.carousel-control-prev,
+.carousel-control-next{
+
+         margin:0px -10px;    
+        background-color: black !important;
+
+}
+.header{
+    height: 80vh;
+}
+.logo{
+    width:100px ;
+}
+
+
+}
+/*up button*/
+.up{
+
+
+    padding: 10px 20px ;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color:#f3af1d;
+    color: black;
+    margin: 25px;
+    border-radius: 5px;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 1.5rem;
+    z-index: 9999;
+}
+/*services*/
+.communicationText h1{
+
+    color: white;
+    font-size: 1.7rem !important;
+    text-transform: capitalize;
+ 
+    line-height: 150%;
+}
+.hmn{
+    font-size: 2.5rem;
+    
+}
+.srl{
+    color: #ec3514 !important;
+ 
+}
+.services .inner{
+    position: relative;
+}
+
+.services .card{
+    position: relative;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+}
+.services .card-top{
+
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    
+}
+.services .card .card-top:hover .overlay{
+
+    display: flex;
+    
+
+
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition: all 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+ 
+ 
+
+    
+}
+.overlay h1{
+    color: #f3af1d;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+
+
+
+/*start card*/
+.card-body{
+    background-color: black !important;
+    color: #fff !important;
+}
+.card-body h5{
+    color: #f3af1d;
+}
+    
+
+
+/*contactus*/
+.contactus{
+    background-color: #f3af1d;
+}
+.contactus a{
+    text-decoration: none;
+    color: black;
+}
+.contactus h1{
+
+    color: black;
+   text-transform: uppercase;
+    font-size: 3rem;
+    padding: 10px;
+ 
+}
+@media screen and (max-width: 600px){
+    .contactus h1{
+        font-size: 2rem;
+    }
+
+}
+
+.special{
+    max-height: 100% !important;
+}
+/*accordion*/
+.social i{
+    padding: 10px;
+    font-size: 25px;
+    color: #f3af1d  !important;
+
+}
+.accordion-button {
+
+    background-color: black !important;
+    color: #f3af1d!important;
+  
+}
+
+.accordion-button::after{
+    color: #f3af1d!important;
+}
+.conI{
+
+    font-size: 30px;
+    color: black;
+    padding: 5px;
+}
+
+
+.ourlocation h1{
+    text-transform: uppercase;
+    color: #ec3514;
+    font-size: 3rem;
+    padding: 10px;
+    
+
+}
+@media screen and (max-width: 600px){
+    .ourlocation h1{
+    
+        font-size: 2rem;
+    }
+    .ourlocation img{
+        width: 25%;
+    }
+
+
+}
+
+
+
+.locImage{
+    width: 150px;
+}
+/*footer*/
+.footer{
+    background-color: #f3af1d;
+    color:black;
+    padding: 15px;
+}
